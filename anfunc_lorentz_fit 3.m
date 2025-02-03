@@ -4,7 +4,7 @@ function anfunc_lorentz_fit(dataloc,names,c3,stanbig,backper,lowercut,uppercut,l
 %hyperspectral images. This function is used primarily for memory
 %management issue and passes no output back to the its parent function. It
 %instead writes data to files named as the original TDMS filename followed
-%by analysis.mat 1
+%by analysis.mat
 %function dependencies: convertTDMS.m makergb.m partident.m
 %fn_lorentz_fit.m plot_lorentz_fit.m 
 %As of 08-21-13, framework for local background subtraction is provided but
